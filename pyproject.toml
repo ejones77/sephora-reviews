@@ -1,0 +1,20 @@
+[project]
+name = "sephora-reviews"
+version = "0.1.0"
+description = "Vector database benchmark study using Sephora reviews dataset"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "elasticsearch>=9.1.0",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "pinecone-client>=6.0.0",
+    "pymongo>=4.14.0",
+    "python-dotenv>=1.0.0",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "sentence-transformers>=5.1.0",
+    "tqdm>=4.67.1",
+    "wordcloud>=1.9.4",
+]
